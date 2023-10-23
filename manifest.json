@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Right Click With Knowledge",
+  "description": "Put knowledge at your fingertips",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "scripts/contentscript.js"
+      ],
+      "all_frames": false
+    }
+  ]
+}
